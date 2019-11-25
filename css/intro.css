@@ -1,0 +1,280 @@
+.header{
+	z-index:10;
+}
+.logo{
+	float:left;
+	width:300px;
+	height:70px;
+	z-index:10;
+	margin-left:10px;
+	padding-bottom:5px;
+}
+nav{
+	position:fixed;
+	background-color:#EEB3A3;
+	text-align:right;
+	padding:10px;
+	width:100%;
+	height:60pt;
+	border-bottom:3px black dashed;
+	z-index:10;
+}
+nav ul{
+	display:inline-block;
+	margin:0px;
+}
+nav li{
+	padding:10px;
+	font-family:微軟正黑體;
+	font-size:18pt;
+	list-style-type:none;
+	float:left;
+}
+nav li a{
+	padding:10px 10px 0px 20px;
+	color:#1F384C;
+	text-decoration:none;
+}
+nav li a:hover{
+	font-weight:bold;
+	color:#192231;
+}
+.picture{
+	z-index:-1;
+	float:none;
+	max-width:100%;
+	max-height:100%;
+}
+img.picture{
+	margin-top:80px;
+}
+.aboutme{
+	margin:auto;
+	background-color:#DBDBE5;
+	width:100%;
+	height:500px;
+	border-radius:10px;
+}
+.title{
+	width:100%;
+	height:50px;
+	background-color:#FFB53C;
+	font-family:微軟正黑體;
+	font-weight:bolder;
+	font-size:24pt;
+	padding-left:12px;
+}
+.picme{
+	width:26.5%;
+	float:left;
+}
+img.picme{
+	max-height: 100%;  
+    max-width: 100%; 
+    width:auto;
+    height:auto;
+    margin:20px 20px 20px 25px;
+}
+.detailme{
+	float:left;
+	font-family:微軟正黑體;
+	font-size:22.5pt;
+	margin:25px 30px 25px 45px;
+	color:#373737;
+}
+#specialtext{
+	font-weight:bold;
+	font-size:24pt;
+	color:#192231;
+}
+.icon{
+	width:70px;
+	height:70px;
+	margin:7px 10px 7px 5px;
+}
+.aaa{
+	color:#192231;
+}
+.aaa:hover{
+	color:#AF473C;
+	font-weight:bold;
+}
+.school{
+	background-color:#DBDBE5;
+	width:600px;
+	height:500px;
+	float:left;
+	border-radius:10px;
+}
+.detailsch{
+	font-family:微軟正黑體;
+	font-size:22.5pt;
+	margin:20px;
+}
+.iconsch{
+	width:150px;
+	height:150px;
+	margin:10px 20px 10px 10px;
+}
+.club{
+	background-color:#DBDBE5;
+	width:600px;
+	height:500px;
+	float:right;
+	border-radius:10px;
+}
+.detailclub{
+	font-family:微軟正黑體;
+	font-size:22.5pt;
+	margin:20px;
+	float:left;
+}
+.trumpet{
+	float:left;
+}
+img.trumpet{
+	width:250px;
+	height:250px;
+	margin:15px 15px 0px 35px;
+}
+.food{
+	width:100%;
+	height:200px;
+}
+img.food{
+	width:120px;
+	height:120px;
+	margin-left:25px 
+}
+.goal{
+	margin:auto;
+	background-color:#DBDBE5;
+	width:100%;
+	height:330px;
+	border-radius:10px;
+}
+.detailgoal{
+	font-family:微軟正黑體;
+	font-size:22.5pt;
+	margin:40px 60px 0px 60px;
+	float:left;
+}
+.picgoal{
+	float:left;
+	width:250px;
+	height:250px;
+	margin:18px 18px 0px 18px;
+}
+.hope{
+	margin:auto;
+	background-color:#DBDBE5;
+	width:100%;
+	height:360px;
+	border-radius:10px;
+}
+.detailhope{
+	font-family:微軟正黑體;
+	font-size:22.5pt;
+	margin:40px 60px 0px 40px;
+	text-align:center;
+	float:left;
+}
+.pichope1{
+	width:300px;
+	height:300px;
+	margin-left:50px;
+	margin:7px 46px 8px 46px;
+	float:left;
+}
+.pichope2{
+	width:150px;
+	height:150px;
+	margin-top:80px;
+	float:left;
+}
+.space{
+	width:100%;
+	height:20px;
+}
+.pic3x{
+	width:390px;
+	height:390px;
+	float:left;
+}
+.pic3x1{
+	width:390px;
+	height:390px;
+	border-radius: 10px;
+	border:10px groove #FFB53C;
+	position:absolute;
+}
+.pic3x2{
+	width:390px;
+	height:390px;
+	border-radius: 10px;
+	border:10px groove #1ABCBD;
+	position:absolute;
+}
+.pic3x3{
+	width:390px;
+	height:390px;
+	border-radius: 10px;
+	border:10px groove #D92139;
+	position:absolute;
+}
+.pic2x{
+	width:600px;
+	height:450px;
+	float:left;
+}
+.pic2x1{
+	width:600px;
+	height:450px;
+	border-radius: 10px;
+	border:10px groove #8A54A2;
+	position:absolute;
+}
+.pic2x2{
+	width:600px;
+	height:450px;
+	border-radius: 10px;
+	border:10px groove #AEC33A;
+	position:absolute;
+}
+div footer{
+	height:60px;
+	background-color:black;
+	padding:15px;
+	color:white;
+	text-align:center;
+	margin-top:28%;
+}
+.texttt{
+	opacity:0;
+	background-color:#514644;
+	width:370px;
+	height:370px;
+	position:absolute;
+	z-index:2;
+	margin:10px;
+}
+.texttt:hover{
+	opacity:0.85;
+}
+.textttt{
+	opacity:0;
+	background-color:#514644;
+	width:580px;
+	height:430px;
+	position:absolute;
+	z-index:2;
+	margin:10px;
+}
+.textttt:hover{
+	opacity:0.85;
+}
+.phototext{
+	text-align:center;
+	font:bold 24pt 微軟正黑體;
+	color:#DBDBE5;
+}
